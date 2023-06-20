@@ -13,6 +13,23 @@ Application Load Balancer (ALB)
 https://github.com/alwoods147/awesome-compose/tree/master/react-nginx
 
 
+## React-Nginx Website Image Creation
+
+- git clone git@github.com:alwoods147/awesome-compose.git
+- cd react-nginx
+- docker-compose build
+- docker-compose up -d (the image can be seen on localhost)
+- tag the image as latest
+- push to AWS ECR repository by following the command instructions in the ECR repo
+
+## React-Nginx Website Changes
+
+- minor changes can be made to the homepage by editing the file in src/App.js
+- rebuild the image with docker-compose build
+- tag the image as latest
+- push the new image to AWS ECR repository by following the command instructions in the ECR repo
+- in ECS service on AWS, navigate to the running service and select 'Update Service'
+
 ## Infrastructure Creation
 
 git clone git@github.com:alwoods147/aws-web-app.git
