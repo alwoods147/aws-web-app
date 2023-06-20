@@ -13,19 +13,19 @@ Application Load Balancer (ALB)
 https://github.com/alwoods147/awesome-compose/tree/master/react-nginx
 
 
-##Infrastructure Creation
+## Infrastructure Creation
 
 git clone git@github.com:alwoods147/aws-web-app.git
-terraform init
-terraform plan
-terraform apply
+- terraform init
+- terraform plan
+- terraform apply
 (resource provision and configuration can take several minutes here)
 
-##Infrastructure Deletion
-Terminate instances
-Run terraform destroy
+## Infrastructure Deletion
+- Terminate instances
+- Run terraform destroy
 
-##Application Description
+## Application Description
 Cluster is created using EC2 container instances.
 
 the verified module vpc is imported from the Terraform Registry, with other resources being created in their relevant files.
