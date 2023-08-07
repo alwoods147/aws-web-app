@@ -1,5 +1,5 @@
 # aws-web-app
-React-Nginx Web Application deployed on AWS ECS using Terraform
+React-Nginx Web Application deployed on AWS ECS using Terraform as an example
 
 This is a basic example to 
 
