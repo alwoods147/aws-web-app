@@ -1,7 +1,7 @@
 # aws-web-app
 React-Nginx Web Application deployed on AWS ECS using Terraform as an example
 
-This is a basic example to 
+This is a basic example to demonstrate...
 
 (a) deploy simple infrastructure using Terraform and AWS cloud provider, consisting of...
 
